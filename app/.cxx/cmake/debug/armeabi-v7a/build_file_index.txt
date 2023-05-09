@@ -1,0 +1,1 @@
+/Volumes/SamsungSSD970EVOPlusMedia/github/Android-as_video_recorder/app/CMakeLists.txt

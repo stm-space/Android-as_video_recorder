@@ -1,0 +1,7 @@
+Executable : /Users/suntongmian/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Volumes/SamsungSSD970EVOPlusMedia/github/Android-as_video_recorder/app/.cxx/cmake/debug/armeabi-v7a
+native-lib
+jvmArgs : 
+

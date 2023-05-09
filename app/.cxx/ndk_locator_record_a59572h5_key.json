@@ -1,0 +1,13 @@
+{
+  "ndkDirProperty": "/Users/xiaokai.zhan/soft/sdk_4_android_studio/ndk-bundle",
+  "sdkFolder": "/Users/suntongmian/Library/Android/sdk",
+  "sideBySideNdkFolderNames": [
+    "21.4.7075529",
+    "21.0.6113669",
+    "25.2.9519653",
+    "23.0.7599858",
+    "android-ndk-r14b",
+    "23.2.8568313",
+    "21.1.6352462"
+  ]
+}

@@ -1,0 +1,3 @@
+/Volumes/SamsungSSD970EVOPlusMedia/github/Android-as_video_recorder/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Volumes/SamsungSSD970EVOPlusMedia/github/Android-as_video_recorder/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Volumes/SamsungSSD970EVOPlusMedia/github/Android-as_video_recorder/app/.cxx/cmake/debug/armeabi-v7a/CMakeFiles/native-lib.dir
