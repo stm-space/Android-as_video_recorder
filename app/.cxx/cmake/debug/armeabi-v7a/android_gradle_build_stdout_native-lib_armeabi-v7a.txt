@@ -1,31 +1,5 @@
 ninja: Entering directory `/Volumes/SamsungSSD970EVOPlusMedia/github/Android-as_video_recorder/app/.cxx/cmake/debug/armeabi-v7a'
-[1/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/message_queue/handler.cpp.o
-In file included from ../../../../src/main/cpp/common/message_queue/handler.cpp:1:
-In file included from ../../../../src/main/cpp/common/message_queue/./handler.h:4:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/message_queue/handler.cpp:1:
-In file included from ../../../../src/main/cpp/common/message_queue/./handler.h:4:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/message_queue/handler.cpp:1:
-In file included from ../../../../src/main/cpp/common/message_queue/./handler.h:4:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-3 warnings generated.
-[2/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/thread.cpp.o
+[1/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/thread.cpp.o
 In file included from ../../../../src/main/cpp/common/thread.cpp:2:
 In file included from ../../../../src/main/cpp/common/thread.h:5:
 ../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
@@ -60,6 +34,35 @@ In file included from ../../../../src/main/cpp/common/thread.h:5:
 }
 ^
 5 warnings generated.
+[2/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/egl_core/egl_share_context.cpp.o
+In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.cpp:1:
+In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.h:4:
+In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.cpp:1:
+In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.h:4:
+In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.cpp:1:
+In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.h:4:
+In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+3 warnings generated.
 [3/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/egl_core/egl_core.cpp.o
 In file included from ../../../../src/main/cpp/common/egl_core/egl_core.cpp:1:
 In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
@@ -86,135 +89,7 @@ In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
 #define INT16_MIN        (-32768)
         ^
 3 warnings generated.
-[4/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/egl_core/egl_share_context.cpp.o
-In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.cpp:1:
-In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.h:4:
-In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.cpp:1:
-In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.h:4:
-In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.cpp:1:
-In file included from ../../../../src/main/cpp/common/egl_core/egl_share_context.h:4:
-In file included from ../../../../src/main/cpp/common/egl_core/./egl_core.h:4:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-3 warnings generated.
-[5/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/message_queue/message_queue.cpp.o
-In file included from ../../../../src/main/cpp/common/message_queue/message_queue.cpp:1:
-In file included from ../../../../src/main/cpp/common/message_queue/./message_queue.h:4:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/message_queue/message_queue.cpp:1:
-In file included from ../../../../src/main/cpp/common/message_queue/./message_queue.h:4:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/message_queue/message_queue.cpp:1:
-In file included from ../../../../src/main/cpp/common/message_queue/./message_queue.h:4:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-3 warnings generated.
-[6/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/movie_frame.cpp.o
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-3 warnings generated.
-[7/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/libresampler/Resampler.cpp.o
-In file included from ../../../../src/main/cpp/common/libresampler/Resampler.cpp:1:
-In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/libresampler/Resampler.cpp:1:
-In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/libresampler/Resampler.cpp:1:
-In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-3 warnings generated.
-[8/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/matrix.cpp.o
-../../../../src/main/cpp/common/matrix.cpp:66:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-                register const float rhs_i0 = rhs[I(i, 0)];
-                ^~~~~~~~~
-../../../../src/main/cpp/common/matrix.cpp:67:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-                register float ri0 = lhs[ I(0,0) ] * rhs_i0;
-                ^~~~~~~~~
-../../../../src/main/cpp/common/matrix.cpp:68:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-                register float ri1 = lhs[ I(0,1) ] * rhs_i0;
-                ^~~~~~~~~
-../../../../src/main/cpp/common/matrix.cpp:69:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-                register float ri2 = lhs[ I(0,2) ] * rhs_i0;
-                ^~~~~~~~~
-../../../../src/main/cpp/common/matrix.cpp:70:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-                register float ri3 = lhs[ I(0,3) ] * rhs_i0;
-                ^~~~~~~~~
-../../../../src/main/cpp/common/matrix.cpp:72:25: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
-                        register const float rhs_ij = rhs[ I(i,j) ];
-                        ^~~~~~~~~
-6 warnings generated.
-[9/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
-[10/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/render/video_gl_surface_render.cpp.o
+[4/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/render/video_gl_surface_render.cpp.o
 In file included from ../../../../src/main/cpp/common/opengl_media/render/video_gl_surface_render.cpp:1:
 In file included from ../../../../src/main/cpp/common/opengl_media/render/video_gl_surface_render.h:6:
 ../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
@@ -247,25 +122,25 @@ In file included from ../../../../src/main/cpp/common/opengl_media/render/video_
             "varying highp vec2 v_texcoord;\n"
             ^
 5 warnings generated.
-[11/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture/texture_frame.cpp.o
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
+[5/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/message_queue/handler.cpp.o
+In file included from ../../../../src/main/cpp/common/message_queue/handler.cpp:1:
+In file included from ../../../../src/main/cpp/common/message_queue/./handler.h:4:
 ../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
 #define UINT64_C        uint64_t
         ^
 /Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
 #  define UINT64_C(c)     c ## ULL
           ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
+In file included from ../../../../src/main/cpp/common/message_queue/handler.cpp:1:
+In file included from ../../../../src/main/cpp/common/message_queue/./handler.h:4:
 ../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
 #define INT16_MAX        32767
         ^
 /Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
 #define INT16_MAX        (32767)
         ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
+In file included from ../../../../src/main/cpp/common/message_queue/handler.cpp:1:
+In file included from ../../../../src/main/cpp/common/message_queue/./handler.h:4:
 ../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
 #define INT16_MIN       -32768
         ^
@@ -273,7 +148,106 @@ In file included from ../../../../src/main/cpp/common/opengl_media/texture/textu
 #define INT16_MIN        (-32768)
         ^
 3 warnings generated.
-[12/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture/gpu_texture_frame.cpp.o
+[6/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/message_queue/message_queue.cpp.o
+In file included from ../../../../src/main/cpp/common/message_queue/message_queue.cpp:1:
+In file included from ../../../../src/main/cpp/common/message_queue/./message_queue.h:4:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/cpp/common/message_queue/message_queue.cpp:1:
+In file included from ../../../../src/main/cpp/common/message_queue/./message_queue.h:4:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/cpp/common/message_queue/message_queue.cpp:1:
+In file included from ../../../../src/main/cpp/common/message_queue/./message_queue.h:4:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+3 warnings generated.
+[7/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/movie_frame.cpp.o
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+3 warnings generated.
+[8/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/libresampler/Resampler.cpp.o
+In file included from ../../../../src/main/cpp/common/libresampler/Resampler.cpp:1:
+In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/cpp/common/libresampler/Resampler.cpp:1:
+In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/cpp/common/libresampler/Resampler.cpp:1:
+In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+3 warnings generated.
+[9/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/matrix.cpp.o
+../../../../src/main/cpp/common/matrix.cpp:66:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register const float rhs_i0 = rhs[I(i, 0)];
+                ^~~~~~~~~
+../../../../src/main/cpp/common/matrix.cpp:67:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register float ri0 = lhs[ I(0,0) ] * rhs_i0;
+                ^~~~~~~~~
+../../../../src/main/cpp/common/matrix.cpp:68:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register float ri1 = lhs[ I(0,1) ] * rhs_i0;
+                ^~~~~~~~~
+../../../../src/main/cpp/common/matrix.cpp:69:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register float ri2 = lhs[ I(0,2) ] * rhs_i0;
+                ^~~~~~~~~
+../../../../src/main/cpp/common/matrix.cpp:70:17: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                register float ri3 = lhs[ I(0,3) ] * rhs_i0;
+                ^~~~~~~~~
+../../../../src/main/cpp/common/matrix.cpp:72:25: warning: 'register' storage class specifier is deprecated and incompatible with C++17 [-Wdeprecated-register]
+                        register const float rhs_ij = rhs[ I(i,j) ];
+                        ^~~~~~~~~
+6 warnings generated.
+[10/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o
+[11/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture/gpu_texture_frame.cpp.o
 In file included from ../../../../src/main/cpp/common/opengl_media/texture/gpu_texture_frame.cpp:1:
 In file included from ../../../../src/main/cpp/common/opengl_media/texture/gpu_texture_frame.h:4:
 In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
@@ -302,36 +276,7 @@ In file included from ../../../../src/main/cpp/common/opengl_media/texture/textu
 #define INT16_MIN        (-32768)
         ^
 3 warnings generated.
-[13/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp.o
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.h:4:
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.h:4:
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.h:4:
-In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-3 warnings generated.
-[14/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.cpp.o
+[12/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.cpp.o
 In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.cpp:1:
 In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.h:4:
 ../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
@@ -364,28 +309,25 @@ In file included from ../../../../src/main/cpp/common/opengl_media/texture_copie
             "varying vec2 yuvTexCoords;\n"
             ^
 5 warnings generated.
-[15/51] Building CXX object CMakeFiles/native-lib.dir/src/main/jni/NativeRecordProcessor.cpp.o
-In file included from ../../../../src/main/jni/NativeRecordProcessor.cpp:1:
-In file included from ../../../../src/main/jni/com_changba_songstudio_recorder_NativeRecordProcessor.h:3:
-In file included from ../../../../src/main/cpp/recorder_processor/record_processor.h:3:
+[13/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture/texture_frame.cpp.o
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
 ../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
 #define UINT64_C        uint64_t
         ^
 /Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
 #  define UINT64_C(c)     c ## ULL
           ^
-In file included from ../../../../src/main/jni/NativeRecordProcessor.cpp:1:
-In file included from ../../../../src/main/jni/com_changba_songstudio_recorder_NativeRecordProcessor.h:3:
-In file included from ../../../../src/main/cpp/recorder_processor/record_processor.h:3:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
 ../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
 #define INT16_MAX        32767
         ^
 /Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
 #define INT16_MAX        (32767)
         ^
-In file included from ../../../../src/main/jni/NativeRecordProcessor.cpp:1:
-In file included from ../../../../src/main/jni/com_changba_songstudio_recorder_NativeRecordProcessor.h:3:
-In file included from ../../../../src/main/cpp/recorder_processor/record_processor.h:3:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/texture_frame.h:3:
 ../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
 #define INT16_MIN       -32768
         ^
@@ -393,7 +335,36 @@ In file included from ../../../../src/main/cpp/recorder_processor/record_process
 #define INT16_MIN        (-32768)
         ^
 3 warnings generated.
-[16/51] Building CXX object CMakeFiles/native-lib.dir/src/main/jni/MusicDecoder.cpp.o
+[14/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp.o
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.h:4:
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.h:4:
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture/yuv_texture_frame.h:4:
+In file included from ../../../../src/main/cpp/common/opengl_media/movie_frame.h:4:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+3 warnings generated.
+[15/51] Building CXX object CMakeFiles/native-lib.dir/src/main/jni/MusicDecoder.cpp.o
 In file included from ../../../../src/main/jni/MusicDecoder.cpp:1:
 In file included from ../../../../src/main/jni/com_changba_songstudio_decoder_MusicDecoder.h:3:
 In file included from ../../../../src/main/cpp/music_decoder/song_decoder_controller.h:5:
@@ -431,6 +402,35 @@ In file included from ../../../../src/main/cpp/common/libresampler/Resampler.h:3
 #define LOG_TAG "AACAccompanyDecoder"
         ^
 4 warnings generated.
+[16/51] Building CXX object CMakeFiles/native-lib.dir/src/main/jni/NativeRecordProcessor.cpp.o
+In file included from ../../../../src/main/jni/NativeRecordProcessor.cpp:1:
+In file included from ../../../../src/main/jni/com_changba_songstudio_recorder_NativeRecordProcessor.h:3:
+In file included from ../../../../src/main/cpp/recorder_processor/record_processor.h:3:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/jni/NativeRecordProcessor.cpp:1:
+In file included from ../../../../src/main/jni/com_changba_songstudio_recorder_NativeRecordProcessor.h:3:
+In file included from ../../../../src/main/cpp/recorder_processor/record_processor.h:3:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/jni/NativeRecordProcessor.cpp:1:
+In file included from ../../../../src/main/jni/com_changba_songstudio_recorder_NativeRecordProcessor.h:3:
+In file included from ../../../../src/main/cpp/recorder_processor/record_processor.h:3:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+3 warnings generated.
 [17/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture_copier/gpu_texture_frame_copier.cpp.o
 In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/gpu_texture_frame_copier.cpp:1:
 In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/gpu_texture_frame_copier.h:6:
@@ -472,7 +472,46 @@ In file included from ../../../../src/main/cpp/common/opengl_media/texture_copie
         "#extension GL_OES_EGL_image_external : require\n"
         ^
 7 warnings generated.
-[18/51] Building CXX object CMakeFiles/native-lib.dir/src/main/jni/ChangbaRecordingPreviewScheduler.cpp.o
+[18/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_audio_packet_pool.cpp.o
+[19/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp.o
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:6:
+../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
+#define UINT64_C        uint64_t
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
+#  define UINT64_C(c)     c ## ULL
+          ^
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:6:
+../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
+#define INT16_MAX        32767
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
+#define INT16_MAX        (32767)
+        ^
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:6:
+../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
+#define INT16_MIN       -32768
+        ^
+/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
+#define INT16_MIN        (-32768)
+        ^
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:7:
+../../../../src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.h:11:3: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                "attribute vec4 vPosition;\n"
+                ^
+../../../../src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.h:22:6: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+            "varying vec2 yuvTexCoords;\n"
+            ^
+In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
+../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:11:3: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
+                "varying highp vec2 yuvTexCoords;\n"
+                ^
+6 warnings generated.
+[20/51] Building CXX object CMakeFiles/native-lib.dir/src/main/jni/ChangbaRecordingPreviewScheduler.cpp.o
 In file included from ../../../../src/main/jni/ChangbaRecordingPreviewScheduler.cpp:1:
 In file included from ../../../../src/main/jni/com_changba_songstudio_recording_camera_preview_ChangbaRecordingPreviewScheduler.h:5:
 In file included from ../../../../src/main/cpp/camera_preview/mv_recording_preview_controller.h:10:
@@ -552,45 +591,6 @@ In file included from ../../../../src/main/cpp/video_encoder/soft_encoder/soft_e
 #define LOG_TAG "SONG_STUDIO_H264_UTIL"
         ^
 12 warnings generated.
-[19/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp.o
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:6:
-../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
-#define UINT64_C        uint64_t
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:148:11: note: previous definition is here
-#  define UINT64_C(c)     c ## ULL
-          ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:6:
-../../../../src/main/cpp/common/CommonTools.h:13:9: warning: 'INT16_MAX' macro redefined [-Wmacro-redefined]
-#define INT16_MAX        32767
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:166:9: note: previous definition is here
-#define INT16_MAX        (32767)
-        ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:6:
-../../../../src/main/cpp/common/CommonTools.h:14:9: warning: 'INT16_MIN' macro redefined [-Wmacro-redefined]
-#define INT16_MIN       -32768
-        ^
-/Users/suntongmian/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/stdint.h:165:9: note: previous definition is here
-#define INT16_MIN        (-32768)
-        ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:7:
-../../../../src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.h:11:3: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-                "attribute vec4 vPosition;\n"
-                ^
-../../../../src/main/cpp/common/opengl_media/texture_copier/texture_frame_copier.h:22:6: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-            "varying vec2 yuvTexCoords;\n"
-            ^
-In file included from ../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.cpp:1:
-../../../../src/main/cpp/common/opengl_media/texture_copier/yuv_texture_frame_copier.h:11:3: warning: ISO C++11 does not allow conversion from string literal to 'char *' [-Wwritable-strings]
-                "varying highp vec2 yuvTexCoords;\n"
-                ^
-6 warnings generated.
-[20/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_audio_packet_pool.cpp.o
 [21/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/camera_preview/recording_preview_renderer.cpp.o
 In file included from ../../../../src/main/cpp/camera_preview/recording_preview_renderer.cpp:1:
 In file included from ../../../../src/main/cpp/camera_preview/recording_preview_renderer.h:4:
@@ -680,8 +680,7 @@ In file included from ../../../../src/main/cpp/video_consumer/libvideo_consumer/
                         audioChannels, audioBitRate, "libfdk_aac", qualityStrategy, configMap,g_jvm, g_obj);
                                                      ^
 4 warnings generated.
-[23/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_audio_packet_queue.cpp.o
-[24/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_thread.cpp.o
+[23/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_thread.cpp.o
 ../../../../src/main/cpp/livecore/common/live_thread.cpp:28:51: warning: format specifies type 'int' but the argument has type 'void *' [-Wformat]
         LOGI("pthread_join thread return result is %d ", status);
                                                    ~~    ^~~~~~
@@ -689,6 +688,7 @@ In file included from ../../../../src/main/cpp/video_consumer/libvideo_consumer/
 #define LOGI(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
                                                                   ^~~~~~~~~~~
 1 warning generated.
+[24/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_audio_packet_queue.cpp.o
 [25/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_video_packet_queue.cpp.o
 [26/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/audio_encoder/audio_encoder_adapter.cpp.o
 [27/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/camera_preview/mv_recording_preview_controller.cpp.o
@@ -776,7 +776,9 @@ attribute_deprecated
                                                 ^
 1 warning generated.
 [29/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/live_packet_pool.cpp.o
-[30/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/recorder_processor/record_corrector.cpp.o
+[30/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/publisher_rate_feed_back.cpp.o
+[31/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/publisher_statistics.cpp.o
+[32/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/recorder_processor/record_corrector.cpp.o
 In file included from ../../../../src/main/cpp/recorder_processor/record_corrector.cpp:1:
 In file included from ../../../../src/main/cpp/recorder_processor/record_corrector.h:3:
 ../../../../src/main/cpp/common/CommonTools.h:12:9: warning: 'UINT64_C' macro redefined [-Wmacro-redefined]
@@ -802,8 +804,6 @@ In file included from ../../../../src/main/cpp/recorder_processor/record_correct
 #define INT16_MIN        (-32768)
         ^
 3 warnings generated.
-[31/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/publisher_statistics.cpp.o
-[32/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/livecore/common/publisher_rate_feed_back.cpp.o
 [33/51] Building CXX object CMakeFiles/native-lib.dir/src/main/cpp/video_consumer/libmusic_merger/music_merger.cpp.o
 In file included from ../../../../src/main/cpp/video_consumer/libmusic_merger/music_merger.cpp:1:
 In file included from ../../../../src/main/cpp/video_consumer/libmusic_merger/music_merger.h:4:
