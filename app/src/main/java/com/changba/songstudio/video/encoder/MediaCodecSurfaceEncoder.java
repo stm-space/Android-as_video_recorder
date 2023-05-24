@@ -8,9 +8,12 @@ import android.media.MediaFormat;
 import android.media.MediaMuxer;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.util.Log;
 import android.view.Surface;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 
@@ -32,6 +35,8 @@ public class MediaCodecSurfaceEncoder {
 
     private MediaMuxer mMuxer;
     private int mTrackIndex;
+
+    private FileOutputStream mSrcStream;
 
     public MediaCodecSurfaceEncoder() {
 
@@ -61,6 +66,12 @@ public class MediaCodecSurfaceEncoder {
             throw new RuntimeException("MediaMuxer creation failed", ioe);
         }
         mTrackIndex = -1;
+
+        try {
+            mSrcStream = new FileOutputStream(Environment.getExternalStorageDirectory().getPath() + "/test2.h264");
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     public MediaCodecSurfaceEncoder(int width, int height, int bitRate, int frameRate) throws Exception {
@@ -221,6 +232,16 @@ public class MediaCodecSurfaceEncoder {
             Log.w(TAG, "unexpected result from encoder.dequeueOutputBuffer: " + encoderStatus);
         } else {
             ByteBuffer encodedData = encoderOutputBuffers[encoderStatus];
+
+            try {
+                byte[] buf = new byte[encodedData.capacity()];
+                encodedData.get(buf);
+                mSrcStream.write(buf);
+                Log.e("STM-TEST", "bufSize: " + buf.length);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
             if (encodedData == null) {
                 throw new RuntimeException("encoderOutputBuffer " + encoderStatus + " was null");
             }
